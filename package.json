@@ -1,0 +1,27 @@
+{
+  "name": "buscador_bienes_raices_node",
+  "version": "1.0.0",
+  "description": "Buscador en Node - Evaluacion NextU",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmfabbiani/NextU_Backend_Node_Jose_Fabbiani.git"
+  },
+  "keywords": [
+    "Node",
+    "Buscador",
+    "NextU"
+  ],
+  "author": "Jose Fabbiani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmfabbiani/NextU_Backend_Node_Jose_Fabbiani/issues"
+  },
+  "homepage": "https://github.com/jmfabbiani/NextU_Backend_Node_Jose_Fabbiani#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
