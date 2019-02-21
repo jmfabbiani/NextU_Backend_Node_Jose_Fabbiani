@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 //Inicializador del elemento Slider
 $("#rangoPrecio").ionRangeSlider({
   type: "double",
@@ -7,8 +9,13 @@ $("#rangoPrecio").ionRangeSlider({
   from: 1000,
   to: 20000,
   prefix: "$"
-})
+});
 
+init();
+setSearch();
+
+
+//Busqueda Avanzada
 function setSearch() {
   let busqueda = $('#checkPersonalizada')
   busqueda.on('change', (e) => {
@@ -21,4 +28,4 @@ function setSearch() {
   })
 }
 
-setSearch()
+})
