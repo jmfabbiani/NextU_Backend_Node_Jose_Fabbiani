@@ -1,11 +1,14 @@
-const http = require('http'),
+const http       = require('http'),
       bodyParser = require('body-parser'),
-      express = require('express'),
-      routes = require('./routes');
+      express    = require('express'),
+      routes     = require('./routes'),
+      cors       = require('cors');
+
 
 const port = process.env.PORT ||  3000,
       app = express(),
       server = http.createServer(app);
+
 
 routes(app);
 
